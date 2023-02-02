@@ -1,25 +1,96 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
-nav{
+:root{
+    --main-padding: 5% 10% 1%;
+}
+.class-flex-sb{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
+}
+.class-flex-cen{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: var(--main-padding);
+}
+nav h3{
+    font-size: 24px;
+    font-weight: 800;
 }
 .links{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 16px;
+    font-weight: 800;
 }
 .links ul{
     list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .links ul li{
-    margin-right: 20px;
+    margin-right: 40px;
 }
+
+
+/*--------------------------------- start of header ----------------------------------------------- */
+header{
+    padding: var(--main-padding);
+}
+.leka{
+    width: 50%;
+}
+.leka h1{
+    font-size: 52px;
+}
+.leka h1,P,button{
+    margin-bottom: 20px;
+}
+.leka .button-style{
+    background-color: #E02C6D;
+    border-radius: 41px;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+}
+.imagecontainer{
+    width: 50%;
+}
+.imagecontainer .front{
+    position: absolute;
+}
+.biground{
+    width: 475px;
+    height: 475px;
+    border-radius: 50%;
+    border: 2px solid #F1E4FF;
+}
+.smallround{
+    width: 332px;
+    height: 332px;
+    border-radius: 50%;
+    background-color: #F1E4FF;    
+}
+.companies{
+    width: 100%;
+    margin-top: 70px;
+}
+.logos-list{
+    border: 2px solid rgb(227, 227, 227);
+    border-right: 0;
+    border-left: 0;
+    width: 70%;
+    padding: 30px 0px;
+}
+
+.cards{
+    width: 30%;
+    flex-direction: column;
+}
+
+
+
+
+
